@@ -1,0 +1,16 @@
+@relation fa24-RCS-029
+
+@attribute 'Short Hair' {Yes,No}
+@attribute ' Mustache' {Yes,No}
+@attribute Beard {Yes,No}
+@attribute output {-,+}
+
+@data
+Yes,Yes,Yes,-
+Yes,Yes,No,-
+Yes,No,No,-
+No,Yes,Yes,-
+No,No,Yes,-
+No,Yes,No,-
+No,No,No,+
+Yes,No,No,+
